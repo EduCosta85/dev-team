@@ -12,13 +12,32 @@ A Claude Code plugin that provides a full development team of specialized AI age
 ## Installation
 
 **From marketplace:**
-```
-claude plugin add dev-team
+```bash
+/plugin install dev-team@claude-code-marketplace
 ```
 
-**Local install:**
+**From GitHub:**
+```bash
+claude --plugin-dir /path/to/dev-team
 ```
-claude plugin add /path/to/dev-team
+Or add to your `~/.claude/settings.json`:
+```json
+{
+  "plugins": {
+    "dev-team": {
+      "source": {
+        "source": "directory",
+        "path": "/path/to/dev-team"
+      }
+    }
+  }
+}
+```
+
+**From repository (clone + local):**
+```bash
+git clone https://github.com/EduCosta85/dev-team.git
+claude --plugin-dir ./dev-team
 ```
 
 ## Usage

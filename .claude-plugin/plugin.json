@@ -5,6 +5,8 @@
   "author": {
     "name": "Eduardo Costa"
   },
+  "repository": "https://github.com/EduCosta85/dev-team",
+  "homepage": "https://github.com/EduCosta85/dev-team",
   "license": "MIT",
   "keywords": ["dev-team", "agents", "orchestration", "code-review", "testing", "devops"],
   "skills": "./skills/"
