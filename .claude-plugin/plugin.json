@@ -1,0 +1,11 @@
+{
+  "name": "dev-team",
+  "version": "1.0.0",
+  "description": "AI development team for Claude Code — Lead, Product Owner, Architect, Developer, Reviewer, Tester, DevOps. Orchestrated workflows with project-specific overrides.",
+  "author": {
+    "name": "Eduardo Costa"
+  },
+  "license": "MIT",
+  "keywords": ["dev-team", "agents", "orchestration", "code-review", "testing", "devops"],
+  "skills": "./skills/"
+}

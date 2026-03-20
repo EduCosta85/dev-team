@@ -1,0 +1,21 @@
+{
+  "name": "dev-team",
+  "owner": {
+    "name": "Eduardo Costa"
+  },
+  "metadata": {
+    "description": "AI development team plugin",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "dev-team",
+      "source": "./",
+      "description": "AI development team for Claude Code — Lead, Product Owner, Architect, Developer, Reviewer, Tester, DevOps.",
+      "version": "1.0.0",
+      "author": { "name": "Eduardo Costa" },
+      "category": "development",
+      "keywords": ["dev-team", "agents", "orchestration"]
+    }
+  ]
+}
