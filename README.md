@@ -16,14 +16,16 @@ A Claude Code plugin that provides a full development team of specialized AI age
 /plugin install dev-team@claude-code-marketplace
 ```
 
-Or add to `~/.claude/settings.json`:
+**From GitHub:**
+
+Add to `~/.claude/settings.json`:
 ```json
 {
   "plugins": {
     "dev-team": {
       "source": {
-        "source": "directory",
-        "path": "/path/to/dev-team"
+        "source": "npm",
+        "url": "https://github.com/EduCosta85/dev-team"
       }
     }
   }
