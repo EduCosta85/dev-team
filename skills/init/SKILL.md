@@ -1,6 +1,7 @@
 ---
 name: init
 description: Initialize project-specific dev-team configuration. Creates .claude/team/ directory with templates for rules, stack, conventions, and devops config.
+argument-hint: "[--force to overwrite existing config]"
 disable-model-invocation: true
 ---
 

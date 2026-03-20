@@ -1,6 +1,7 @@
 ---
 name: sync
 description: Incremental update of project team config. Compares current state with last discovery and updates only what changed. Much faster and cheaper than full discovery.
+argument-hint: "[--force to trigger full re-sync]"
 allowed-tools: Read, Grep, Glob, Bash, Write, Edit
 ---
 
