@@ -16,11 +16,7 @@ A Claude Code plugin that provides a full development team of specialized AI age
 /plugin install dev-team@claude-code-marketplace
 ```
 
-**From GitHub:**
-```bash
-claude --plugin-dir /path/to/dev-team
-```
-Or add to your `~/.claude/settings.json`:
+Or add to `~/.claude/settings.json`:
 ```json
 {
   "plugins": {
@@ -32,12 +28,6 @@ Or add to your `~/.claude/settings.json`:
     }
   }
 }
-```
-
-**From repository (clone + local):**
-```bash
-git clone https://github.com/EduCosta85/dev-team.git
-claude --plugin-dir ./dev-team
 ```
 
 ## Usage
